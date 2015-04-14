@@ -1,1 +1,2 @@
-# allergy-detector-server
+Allergy Detector User Control Server
+=================

@@ -1,0 +1,19 @@
+{
+  "name": "allergy-detector-server",
+  "version": "0.0.3",
+  "description": "Web server for Allergy Detector's users login control.",
+  "main": "server.js",
+  "author": "Allergy Detector Team",
+  "dependencies": {
+    "express": "~4.7.2",
+    "mongoose": "~3.8.0",
+    "morgan": "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2",
+    "formidable": "~1.0.15"
+  },
+  "devDependencies": {
+    "archiver": "^0.14.3",
+    "ip": "^0.3.2"
+  }
+}

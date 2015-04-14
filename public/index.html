@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html ng-app="allergyDetectorConsole">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+  <!-- <link rel="shortcut icon" href="img/icon.png"> -->
+  <title>Allergy Detector Server</title>
+
+  <!-- load bootstrap -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/colorpicker.css">
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400' rel='stylesheet' type='text/css'>
+  <script src="/js/jquery.min.js"></script><!-- load jquery -->
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <!-- load angular -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.13/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.13/angular-animate.js"></script>
+  
+  <script src="bower_components/angular-qr/angular-qr.min.js"></script>
+  <script src="core.js"></script>
+</head>
+<body ng-controller="mainController" style="text-align: center; background-color: rgb(15, 130, 165); color: white;">
+
+ <h1>Allergy Detector Server</h1>
+ <h2>Sign in</h2>
+ <form name="userForm" id="userForm" enctype="multipart/form-data">
+ <label> Username: </label><br>
+  <input type="text" name="name" id="name" ng-model="userSignin.name"><br>
+  <label> Password: </label><br>
+  <input type="password" name ="password" id="userSignin.password" ng-model="password"><br>
+  <button data-ng-click="authenticate(userForm)">Log in!</button>
+</form>
+
+<h2>Sign up</h2>
+<form name="userSignUpForm" id="userSignUpForm" enctype="multipart/form-data">
+ <label> Username: </label><br>
+ <input type="text" name="name" id="name" ng-model="userSignup.name"><br>
+ <label> Password: </label><br>
+ <input type="password" name ="password" id="password" ng-model="userSignup.password"><br>
+ <label> Allergies: </label><br>
+ <input type="text" name ="allergies" id="allergies" ng-model="userSignup.allergies"><br>
+ <button data-ng-click="signup(userSignUpForm)">Log in!</button>
+</form>
+
+</body>
+
+</html>

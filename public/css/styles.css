@@ -1,0 +1,249 @@
+x/*html                      {
+  overflow-y:scroll; 
+}*/
+
+
+a,h1,h2,h3,h4,input,span,button,div, label{
+  font-family: "Ubuntu";
+  font-weight: 100;
+}
+
+.btn-success{
+  font-weight: 100;
+}
+body                      {
+  background-color: #FFF; 
+}
+
+.preview-panel h1{
+  font-weight: 100;
+}
+
+.preview-panel{
+  word-wrap: break-word;
+  overflow-y: auto;
+  height: 80%;
+}
+
+.preview-panel img{
+  max-width:100%;
+  max-height:100%;
+}
+
+.error                    { 
+  margin-bottom:30px; background-color: #CF2D38; color: white; 
+}
+
+.panel-primary-kami       { 
+  border-color: #20AB3C; 
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+  border-radius: 2px;
+}
+
+.panel-heading-kami{ 
+  background-color: #20AB3C; 
+  border-color: #20AB3C; 
+  color: #FFFFFF; 
+  padding: 10px 10px;
+  border-bottom: 1px solid transparent; 
+  margin-left: 0px;
+}
+
+.view-info{
+  background-color: #20AB3C;
+  color: white; 
+  text-align: center;
+  padding: 10px;
+}
+
+a{
+  color: white;
+  font-size: 16px;
+  text-align: left; 
+/*  border: 1px solid white;*/
+}
+
+#navbar{
+  background-color:  #37BB37;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+  background-color: rgba(255,255,255,0.1);
+  color: #efefef;
+}
+
+.cordova-preview{
+position: absolute;
+top: 144px;
+left: 23px;
+width: 334px;
+height: 478px;
+background-color: white;
+}
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+.export-button{
+  min-width:300px;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.4);
+}
+
+
+input button{
+  color: white;
+}
+
+.panel-title{
+  font-size: 24px;
+  text-align: center;
+}
+
+.customization-form {
+  margin: 5px; 
+  /*margin-left: 50px;*/
+}
+
+#customization-form-modules h2{
+  margin-bottom: 15px;
+}
+
+#editor { 
+position: relative;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+#sideMenuEditor { 
+position: relative;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+.ace_editor, .ace_editor * {
+    font-family:  'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    font-size:12px;
+    color:inherit;
+}
+
+.styled-select select {
+   background: #009900;
+width: 20%;
+padding: 5px;
+font-size: 16px;
+font-weight: 100;
+border: 0;
+border-radius: 0;
+height: 34px;
+-webkit-appearance: none;
+text-align: center;
+border-radius: 2px;
+color: white;
+box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+   }
+
+  .kami-input
+{
+padding: 5px;
+font-size: 16px;
+font-weight: 100;
+border: 0;
+border-radius: 0;
+-webkit-appearance: none;
+text-align: center;
+border-radius: 2px;
+box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.kami-input::-webkit-input-placeholder { color:white; }
+
+/*  PHONE PREVIEW STYLING */
+.phone-status-bar{
+position: absolute;
+top: 70px;
+left: 23px;
+width: 305px;
+height: 23px;
+}
+
+.phone-content-title{
+  position: absolute;
+  top: 92px;
+  height: 33px;
+  left: 24px;
+  width: 303px;
+  font-size: 22px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.phone-sidemenu-button{
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+
+.phone-content{
+  position: absolute;
+top: 125px;
+left: 24px;
+width: 303px;
+height: 404px;
+background-color: white;
+padding-left: 3px;
+}
+
+.phone-shelf{
+  height: 624px; 
+  width: 350px;
+  padding: 10px;
+  background-color: sienna;
+  position: absolute;
+  left: 0px;
+  border-radius: 2px;
+  border: 1px solid #20AB3C;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+/* END OF PHONE PREVIEW STYLING */
+
+.preview-panel input{
+  width: 100%;
+  margin: 5px;
+  border-radius:2px; 
+  border: 1px solid #efefef;
+  text-align: center;
+}
+
+ button{
+  border-radius: 2px;
+  border: 0;
+  padding: 5px;
+  margin: 5px;
+}
+
+.navbar-default{
+margin:0;
+border: 0; 
+padding:0;
+border-radius:0px; 
+padding: 5px; 
+background-color: #20AB3C;
+box-shadow: rgba(25, 125, 25, 0.4) 1px 1px 2px;
+text-align: center;
+}
